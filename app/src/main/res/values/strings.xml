@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">League of Legends</string>
+
+    <string name="title_postacie">Postacie</string>
+    <string name="title_przedmioty">Przedmioty</string>
+    <string name="title_rotacja">Rotacja</string>
+    <string name="title_promocje">Promocje</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_loadData">Pobierz dane</string>
+    <string name="link_champion_full">http://ddragon.leagueoflegends.com/cdn/5.7.2/data/pl_PL/championFull.json</string>
+    <string name="link_version">https://ddragon.leagueoflegends.com/api/versions.json</string>
+    <string name="title_activity_champion">Postacie</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_items">Przedmioty</string>
+    <string name="title_activity_rotation">Rotacja</string>
+    <string name="title_activity_sale">Promocje</string>
+    <string name="title_activity_help">Pomoc</string>
+    <string name="title_activity_champion_activity_detail">ChampionActivityDetail</string>
+    <string name="infoAttack"    >Atak</string>
+    <string name="infoDefense"   >Obrona</string>
+    <string name="infoMagic"     >Magia</string>
+    <string name="infoDifficulty">Trudność</string>
+    <string name="Porady">Porady</string>
+    <string name="strignAllyTips">Grając postacią</string>
+    <string name="strignEnemyTips">Grając przeciwko postaci</string>
+    <string name="historia">Historia</string>
+    <string name="title_activity_item_detail">ItemDetailActivity</string>
+    <string name="itemListDetailBase">bazowe</string>
+    <string name="itemListDetailTotal">całkowite</string>
+    <string name="itemListDetailSell">sprzedaż</string>
+    <string name="itemDetailIntoBuild">Zbudowane z :</string>
+    <string name="itemDetailFromBuild">Używane do budowy :</string>
+    <string name="naDziesiec"> /10</string>
+
+    <string name="helpAPobieranieTitle">Jak działa aplikacja?</string>
+    <string name="helpAPobieranieDesc">Aplikacja przy starcie potrzebuje pobrać dane z internetu.
+        Aby dokonać aktualizacji danych należy nacisnąć przycisk "Pobierz dane".
+        Następnie zostanie sprawdzona aktualna wersja oraz wersja na urządzeniu, jeżeli będą różne dopiero rozpocznie się pobieranie.
+        Dane na temat rotacji oraz promocji są pobieranie za każdym razem.</string>
+    <string name="helpAOpisTitle">Opis kategorii</string>
+    <string name="helpAChampTitle">Postacie</string>
+    <string name="helpAChampDesc">Dział ten zawiera informacje na temat postaci takie jak: zdjęcie, tytuł, historie, porady, stopnie trudności oraz nazwy, zdjęcia, i opis wszystkich umiejętności.\nPorady do postaci zostały przedstawione w postaci krótkich wskazówek. Opisują one jak najlepiej wykorzystać potencjał postaci lub czego unikać grając przeciwko danej postaci</string>
+    <string name="helpAItemTitle">Przedmioty</string>
+    <string name="helpAItemDesc">W tym dziale można znaleść informacje o przedmiocie, zawiera dokładny opis każdego przedmiotu oraz jego cene.\nMożliwe jest również sprawdzenie z czego dany przedmiot jest zbudowany oraz co można przy jego pomocy wybudować.</string>
+    <string name="helpARotacjeTitle">Rotacje</string>
+    <string name="helpARotacjeDesc">Można tutaj znaleść informacje jacy bochaterowie są w darmowej rotacji.</string>
+    <string name="helpAPromocjeTitle">Promocje</string>
+    <string name="helpAPromocjeDesc">Aktualne promocje skórek do postaci z aktualną ceną oraz zdjęciami.</string>
+
+    <string name="link_splash">http://ddragon.leagueoflegends.com/cdn/img/champion/splash/</string>
+    <string name="link_sale">http://piotrw-blog.cba.pl/sale.json</string>
+    <string name="link_rotation">http://piotrw-blog.cba.pl/rotation.json</string>
+    <string name="link_start">http://ddragon.leagueoflegends.com/cdn/</string>
+    <string name="link_championsFull">/data/pl_PL/championFull.json</string>
+    <string name="link_items">/data/pl_PL/item.json</string>
+    <string name="text_pleaseWait">Proszę czekać</string>
+    <string name="text_downloadData">Pobieram dane</string>
+</resources>

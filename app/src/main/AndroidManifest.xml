@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lolinfo.wiacekp.pl.lolinfo.lolinfo" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launcherico"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ChampionActivity"
+            android:label="@string/title_activity_champion" >
+        </activity>
+        <activity
+            android:name=".ItemsActivity"
+            android:label="@string/title_activity_items" >
+        </activity>
+        <activity
+            android:name=".RotationActivity"
+            android:label="@string/title_activity_rotation" >
+        </activity>
+        <activity
+            android:name=".SaleActivity"
+            android:label="@string/title_activity_sale" >
+        </activity>
+        <activity
+            android:name=".HelpActivity"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity
+            android:name=".ChampionActivityDetail"
+            android:label="@string/title_activity_champion_activity_detail" >
+        </activity>
+        <activity
+            android:name=".ItemDetailActivity"
+            android:label="@string/title_activity_item_detail" >
+        </activity>
+    </application>
+
+</manifest>
